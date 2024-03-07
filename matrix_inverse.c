@@ -21,11 +21,12 @@ void printMatrix(int A[][10], int n);
 
 int main() 
 { 
-    int A[10][10], n; 
+    int n; 
 
     // Get the size of the matrix
     printf("Enter the size of the matrix: "); 
     scanf("%d", &n); 
+    int A[n][n];
 
     // Get the elements of the matrix
     printf("Enter the elements of the matrix:\n"); 
